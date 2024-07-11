@@ -1,4 +1,5 @@
-﻿using UOW.DAL;
+﻿using Microsoft.EntityFrameworkCore;
+using UOW.DAL;
 using UOW.Models;
 
 namespace UOW.Repositories.Implementation
@@ -12,29 +13,37 @@ namespace UOW.Repositories.Implementation
             _dbContext = dbContext;
         }
 
-        public Task Add(Product product)
+        public async Task Add(Product product)
         {
-            throw new NotImplementedException();
+            _dbContext.products.Add(product);
+            await _dbContext.SaveChangesAsync();
         }
 
-        public Task Delete(int id)
+        public async Task Delete(int id)
         {
-            throw new NotImplementedException();
+            var product = await _dbContext.products.FindAsync(id);
+            if (product != null)
+            {
+                _dbContext.products.Remove(product);
+                await _dbContext.SaveChangesAsync();
+            }
+            
         }
 
-        public Task<Product> GetProductById(int id)
+        public async Task<Product> GetProductById(int id)
         {
-            throw new NotImplementedException();
+            return await _dbContext.products.FindAsync(id);
         }
 
-        public Task<IEnumerable<Product>> GetProducts()
+        public async Task<IEnumerable<Product>> GetProducts()
         {
-            throw new NotImplementedException();
+            return await _dbContext.products.ToListAsync();
         }
 
-        public Task Update(Product product)
+        public async Task Update(Product product)
         {
-            throw new NotImplementedException();
+            _dbContext.Entry(product).State = EntityState.Modified;
+            await _dbContext.SaveChangesAsync();
         }
     }
 }

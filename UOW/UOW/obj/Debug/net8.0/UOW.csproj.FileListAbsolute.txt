@@ -134,3 +134,4 @@ H:\Practice\.net Practice\New folder\UOW\UOW\UOW\obj\Debug\net8.0\refint\UOW.dll
 H:\Practice\.net Practice\New folder\UOW\UOW\UOW\obj\Debug\net8.0\UOW.pdb
 H:\Practice\.net Practice\New folder\UOW\UOW\UOW\obj\Debug\net8.0\UOW.genruntimeconfig.cache
 H:\Practice\.net Practice\New folder\UOW\UOW\UOW\obj\Debug\net8.0\ref\UOW.dll
+H:\Practice\.net Practice\New folder\UOW\UOW\UOW\obj\Debug\net8.0\UOW.sourcelink.json

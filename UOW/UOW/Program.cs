@@ -1,10 +1,16 @@
 using Microsoft.EntityFrameworkCore;
 using UOW.DAL;
+using UOW.Repositories;
+using UOW.Repositories.Implementation;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+//DI
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 builder.Services.AddDbContext<MyAppDbContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
