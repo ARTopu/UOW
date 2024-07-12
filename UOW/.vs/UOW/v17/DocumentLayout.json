@@ -3,26 +3,6 @@
   "WorkspaceRootPath": "H:\\Practice\\.net Practice\\New folder\\UOW\\UOW\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|h:\\practice\\.net practice\\new folder\\uow\\uow\\uow\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|solutionrelative:uow\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|h:\\practice\\.net practice\\new folder\\uow\\uow\\uow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|solutionrelative:uow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|h:\\practice\\.net practice\\new folder\\uow\\uow\\uow\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|solutionrelative:uow\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|h:\\practice\\.net practice\\new folder\\uow\\uow\\uow\\repositories\\iproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|solutionrelative:uow\\repositories\\iproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|h:\\practice\\.net practice\\new folder\\uow\\uow\\uow\\repositories\\implementation\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|solutionrelative:uow\\repositories\\implementation\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|h:\\practice\\.net practice\\new folder\\uow\\uow\\uow\\repositories\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|solutionrelative:uow\\repositories\\implementation\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,8 +11,12 @@
       "RelativeMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|solutionrelative:uow\\repositories\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|h:\\practice\\.net practice\\new folder\\uow\\uow\\uow\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|solutionrelative:uow\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|h:\\practice\\.net practice\\new folder\\uow\\uow\\uow\\repositories\\implementation\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|solutionrelative:uow\\repositories\\implementation\\productrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|h:\\practice\\.net practice\\new folder\\uow\\uow\\uow\\repositories\\iproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|solutionrelative:uow\\repositories\\iproductrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|h:\\practice\\.net practice\\new folder\\uow\\uow\\uow\\dal\\myappdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -41,6 +25,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|h:\\practice\\.net practice\\new folder\\uow\\uow\\uow\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|solutionrelative:uow\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|h:\\practice\\.net practice\\new folder\\uow\\uow\\uow\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|solutionrelative:uow\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|h:\\practice\\.net practice\\new folder\\uow\\uow\\uow\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{003DF40F-C263-40AD-9D2E-60C2EB168C1B}|UOW\\UOW.csproj|solutionrelative:uow\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,50 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "H:\\Practice\\.net Practice\\New folder\\UOW\\UOW\\UOW\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "UOW\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "H:\\Practice\\.net Practice\\New folder\\UOW\\UOW\\UOW\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "UOW\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABwAAABwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-11T11:06:46.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
               "DocumentMoniker": "H:\\Practice\\.net Practice\\New folder\\UOW\\UOW\\UOW\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "UOW\\Views\\Product\\Index.cshtml",
               "ToolTip": "H:\\Practice\\.net Practice\\New folder\\UOW\\UOW\\UOW\\Views\\Product\\Index.cshtml",
               "RelativeToolTip": "UOW\\Views\\Product\\Index.cshtml",
-              "ViewState": "AQIAACUAAAAAAAAAAADwvzsAAABBAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-07-11T09:19:45.418Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ProductController.cs",
               "DocumentMoniker": "H:\\Practice\\.net Practice\\New folder\\UOW\\UOW\\UOW\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "UOW\\Controllers\\ProductController.cs",
               "ToolTip": "H:\\Practice\\.net Practice\\New folder\\UOW\\UOW\\UOW\\Controllers\\ProductController.cs",
               "RelativeToolTip": "UOW\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-11T09:13:21.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "H:\\Practice\\.net Practice\\New folder\\UOW\\UOW\\UOW\\Repositories\\Implementation\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "UOW\\Repositories\\Implementation\\UnitOfWork.cs",
@@ -106,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "H:\\Practice\\.net Practice\\New folder\\UOW\\UOW\\UOW\\Repositories\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "UOW\\Repositories\\IUnitOfWork.cs",
@@ -119,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ProductRepo.cs",
               "DocumentMoniker": "H:\\Practice\\.net Practice\\New folder\\UOW\\UOW\\UOW\\Repositories\\Implementation\\ProductRepo.cs",
               "RelativeDocumentMoniker": "UOW\\Repositories\\Implementation\\ProductRepo.cs",
@@ -145,20 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "H:\\Practice\\.net Practice\\New folder\\UOW\\UOW\\UOW\\Program.cs",
-              "RelativeDocumentMoniker": "UOW\\Program.cs",
-              "ToolTip": "H:\\Practice\\.net Practice\\New folder\\UOW\\UOW\\UOW\\Program.cs",
-              "RelativeToolTip": "UOW\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-10T13:00:03.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "MyAppDbContext.cs",
               "DocumentMoniker": "H:\\Practice\\.net Practice\\New folder\\UOW\\UOW\\UOW\\DAL\\MyAppDbContext.cs",
               "RelativeDocumentMoniker": "UOW\\DAL\\MyAppDbContext.cs",
@@ -171,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "Product.cs",
               "DocumentMoniker": "H:\\Practice\\.net Practice\\New folder\\UOW\\UOW\\UOW\\Models\\Product.cs",
               "RelativeDocumentMoniker": "UOW\\Models\\Product.cs",
