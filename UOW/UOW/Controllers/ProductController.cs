@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using UOW.Models;
 using UOW.Repositories;
 
 namespace UOW.Controllers
@@ -18,5 +19,25 @@ namespace UOW.Controllers
             var products = await _unitOfWork.ProductRepo.GetProducts();
             return View(products);
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("Id, ProductName, Price, Qty")] Product product )
+        {
+
+            if(ModelState.IsValid) 
+            {
+                await _unitOfWork.ProductRepo.Add(product);
+                await _unitOfWork.SaveAsync();
+                return RedirectToAction("Index");
+            }
+            return View(product);
+        }
+
     }
 }
