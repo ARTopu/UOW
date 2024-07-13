@@ -24,7 +24,7 @@
                     <th>Product Name</th>
                     <th>Price</th>
                     <th>Qty</th>
-                    <th></th>
+                    <th class="align-items-center"></th>
                 </tr>
             </thead>
             <tbody>
@@ -46,9 +46,9 @@
                                 @product.Qty
                             </td>
                             <td>
-                                <a class="btn btn-warning" asp-action-id="Edit" asp-route="@product.Id">Edit</a>
-                                <a class="btn btn-info" asp-action-id="Details" asp-route="@product.Id">Details</a>
-                                <a class="btn btn-danger" asp-action-id="Delete" asp-route="@product.Id">Delete</a>
+                                <a class="btn btn-warning" asp-action="Edit" asp-route-id="@product.Id">Edit</a>
+                                <a class="btn btn-info" asp-action="Details" asp-route-id="@product.Id">Details</a>
+                                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@product.Id">Delete</a>
                             </td>
                         </tr>
                     }

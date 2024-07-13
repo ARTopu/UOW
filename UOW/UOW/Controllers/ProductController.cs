@@ -39,5 +39,84 @@ namespace UOW.Controllers
             return View(product);
         }
 
+        public async Task<IActionResult> Edit(int id)
+        {
+            if (id == 0)
+            {
+                return View();
+            }
+            var product = await _unitOfWork.ProductRepo.GetProductById(id);
+            if (product == null)
+            {
+                return View();
+            }
+            return View(product);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id,[Bind("Id, ProductName, Price, Qty")] Product product)
+        {
+            if (id != product.Id)
+            {
+                return View();
+            }
+            if (ModelState.IsValid) 
+            {
+                await _unitOfWork.ProductRepo.Update(product);
+                await _unitOfWork.SaveAsync();
+                return RedirectToAction("Index");
+            }
+            return View(product);
+
+        }
+
+        public async Task<IActionResult> Details(int id)
+        {
+            if (id == 0)
+            {
+                return View();
+            }
+            var product = await _unitOfWork.ProductRepo.GetProductById(id);
+            if (product == null)
+            {
+                return View();
+            }
+            return View(product);
+        }
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            if (id == 0)
+            {
+                return View();
+            }
+            var product = await _unitOfWork.ProductRepo.GetProductById(id);
+            if (product == null)
+            {
+                return View();
+            }
+            return View(product);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken, ActionName("Delete")]
+        public async Task<IActionResult> DeleteConfirmed(int id, [Bind("Id, ProductName, Price, Qty")] Product product)
+        {
+            if (id != product.Id)
+            {
+                return View();
+            }
+            if (ModelState.IsValid)
+            {
+                await _unitOfWork.ProductRepo.Delete(id);
+                await _unitOfWork.SaveAsync();
+                return RedirectToAction("Index");
+            }
+            return View(product);
+
+        }
+
+
     }
 }
